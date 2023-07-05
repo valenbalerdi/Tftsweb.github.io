@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Home - TFTS </title>
+</head>
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,900&display=swap');
+      </style>
+    <header> 
+        <img src="../Proyecto Final MYP/img/Logo-TFTS.webp"logo de la empresa" width="200px" height="200px">
+
+        <nav class="navbar"> 
+            
+                <div class="navbar-toggler" id="navbar-toggler">
+                  <div class="bar"></div>
+                  <div class="bar"></div>
+                  <div class="bar"></div>
+                </div>
+              
+              
+                <ul class="navbar-menu" id="navbar-menu">
+                <li class="nav-item"> 
+                    <a href="index.html"> Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="pages/login.html">Login </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="pages/productos.html"> Productos </a> 
+                </li >
+
+                <li class="nav-item"> 
+                    <a href="pages/sucursales.html"> Sucursales</a>  
+                </li>
+
+                <li class="nav-item">
+                    <a href="pages/quienes-somos.html">Quienes Somos</a>
+                </li>
+
+            </ul>
+        </nav>
+        
+    </header>
+
+    <main>
+        <img class="burga" src="../Proyecto Final MYP/img/Hamburguesa-L.A..webp" alt="Hamburguesa LA" width="2100" height="1200">
+        <div class="contain">
+            <iframe class="vid-1"  src="https://www.youtube.com/embed/cHLj6loaeUU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            <iframe class="vid-2"  src="https://www.youtube.com/embed/WX4mdV8pDp0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        
+        </div>
+    </main>
+
+    <footer> Todos los derechos reservados.</footer>
+    <script>const navbarToggler = document.getElementById('navbar-toggler');
+        const navbarMenu = document.getElementById('navbar-menu');
+        
+        navbarToggler.addEventListener('click', function() {
+          navbarMenu.classList.toggle('visible');
+        });
+        </script>
+       
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Login - TFTS </title>
+</head>
+
+<body>
+    <header> 
+        <div> <img src="../img/Logo-TFTS.webp" alt="logo tfts" width="200px" height="200px
+            "></div>
+            <nav class="navbar"> 
+            
+                <div class="navbar-toggler" id="navbar-toggler">
+                  <div class="bar"></div>
+                  <div class="bar"></div>
+                  <div class="bar"></div>
+                </div>
+              
+              
+                <ul class="navbar-menu" id="navbar-menu">
+                <li class="nav-item"> 
+                    <a href="../index.html"> Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="login.html">Login </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="productos.html"> Productos </a> 
+                </li >
+
+                <li class="nav-item"> 
+                    <a href="sucursales.html"> Sucursales</a>  
+                </li>
+
+                <li class="nav-item">
+                    <a href="quienes-somos.html">Quienes Somos</a>
+                </li>
+
+            </ul>
+        </nav>
+        
+    </header>
+
+    <main>
+
+        <form class="login-form" action="./gracias.html">
+            <fieldset>
+                 <legend> Completa tus datos para recibir todas nuestras ofertas y novedades ! </legend>
+                     <div> 
+                         <label for="name"> 
+                           Nombre y apellido
+                         </label>
+                         
+                         <input type="name">
+                     </div>
+                     <div> 
+                         <label for="Email">
+                             Email 
+                         </label>
+                         <input type="Email" placeholder=" juanasanchez@gmail.com">
+       
+                       </div>
+
+                       <div> 
+                            <input type="submit">
+                            <input type="reset">
+
+
+                       </div>
+            </fieldset>
+
+         </form>
+         
+    </main>
+
+    <footer> Todos los derechos reservados.</footer>
+    
+    <script>const navbarToggler = document.getElementById('navbar-toggler');
+        const navbarMenu = document.getElementById('navbar-menu');
+        
+        navbarToggler.addEventListener('click', function() {
+          navbarMenu.classList.toggle('visible');
+        });
+        </script>
+       
+</body>
+</html>
